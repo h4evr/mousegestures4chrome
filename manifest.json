@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Mouse Gestures",
+  "description": "This extension allows you to use mouse gestures to navigate through pages.",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webNavigation",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
